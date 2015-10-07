@@ -7,11 +7,11 @@ html {
 
 body {
 	margin: 0px; padding: 0px; width:100%;
-	font-size:20px; /* at 16px */ line-height:35px; font-family: "caviar_dreamsbold", sans-serif; color: #404041;
+	font-size:17px; /* at 16px */ line-height:30px; font-family: "caviar_dreamsbold", sans-serif; color: #404041;
     	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	overflow-x: hidden; background: #fff;
-}
+}a
 
 a {
     text-decoration: none;
