@@ -1,0 +1,487 @@
+/* Global Classes */
+html {
+	-webkit-text-size-adjust: auto;
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-font-smoothing: antialiased;}
+
+
+body {
+	margin: 0px; padding: 0px; width:100%;
+	font-size:20px; /* at 16px */ line-height:35px; font-family: "caviar_dreamsbold", sans-serif; color: #404041;
+    	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden; background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0080C6;
+	-webkit-transition:all 0.1s ease-out; -moz-transition:all 0.1s ease-out; -o-transition:all 0.1s ease-out;-ms-transition:all 0.1s ease-out; transition:all 0.1s ease-out;
+	-webkit-tap-highlight-color: rgba(51,170,170,0.5); 
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('fonts/Caviar_Dreams_Bold-webfont.eot');
+    src: url('fonts/Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Caviar_Dreams_Bold-webfont.woff') format('woff'),
+         url('fonts/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+         url('fonts/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold_italic';
+    src: url('fonts/CaviarDreams_BoldItalic-webfont.eot');
+    src: url('fonts/CaviarDreams_BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams_BoldItalic-webfont.woff') format('woff'),
+         url('fonts/CaviarDreams_BoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreams_BoldItalic-webfont.svg#caviar_dreamsbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'caviar_dreamsitalic';
+    src: url('fonts/CaviarDreams_Italic-webfont.eot');
+    src: url('fonts/CaviarDreams_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams_Italic-webfont.woff') format('woff'),
+         url('fonts/CaviarDreams_Italic-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreams_Italic-webfont.svg#caviar_dreamsitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('fonts/CaviarDreams-webfont.eot');
+    src: url('fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams-webfont.woff') format('woff'),
+         url('fonts/CaviarDreams-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'freebooter_script';
+    src: url('fonts/FREEBSCA-webfont.eot');
+    src: url('fonts/FREEBSCA-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FREEBSCA-webfont.woff') format('woff'),
+         url('fonts/FREEBSCA-webfont.ttf') format('truetype'),
+         url('fonts/FREEBSCA-webfont.svg#freebooter_script_-_altsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'freebooter_scriptregular';
+    src: url('fonts/freebooterscript-webfont.eot');
+    src: url('fonts/freebooterscript-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/freebooterscript-webfont.woff') format('woff'),
+         url('fonts/freebooterscript-webfont.ttf') format('truetype'),
+         url('fonts/freebooterscript-webfont.svg#freebooter_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+	display:block;
+	margin: 0;
+	padding: 0;
+}
+
+.centered {
+	text-align: center;
+	width: 100%;
+}
+
+
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+ul {
+    margin: 0 0 0 18px;
+    padding: 0;
+}
+
+/* ----------------------------------------------------------------------- */
+/* -------------------------- CONTAINERS ----------------------------- */
+/* ----------------------------------------------------------------------- */
+
+
+#home {
+    background: red;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+
+
+.white {
+    color: #fff;
+}
+
+.green {
+    color: #57AA54;
+}
+
+.light-green {
+    color: #99C14D;
+}
+
+.blue {
+    color: #0080C6;
+}
+
+.pink {
+    color: #eeb1be;
+}
+
+.dark-blue {
+    color: #003E60;   
+}
+
+.cyan {
+    color: #4DBEED;
+}
+
+.dark-gray {
+    color: #404041;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.green-bg {
+    background: #008745;
+}
+
+.light-green-bg {
+    background: #99C14D;
+}
+
+.gray-bg {
+    background: #f5f5f5 ;
+}
+
+.dark-gray-bg {
+    background: #404041;
+}
+
+.cyan-bg {
+    background: #4DBEED;
+}
+
+.blue-bg {
+    background: #0080C6;
+}
+
+.dark-blue-bg {
+    background: #003E60;
+}
+
+
+
+/* ---- SECTION ---- */
+.photo-1 {
+    background: url('images/IMG_0756.jpg') bottom right no-repeat;
+    background-size: cover;   
+    position: relative;
+}
+
+.photo-2 {
+    background: url('images/photo-2.png') bottom center no-repeat;
+    background-size: cover;   
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+
+.photo-3 {
+    background: url('images/photo-3.png') bottom center no-repeat;
+    background-size: cover;   
+    position: absolute;
+    right: 0;
+    height: 100%;
+
+}
+
+.photo-4 {
+    background: url('images/IMG_0025.jpg') center center no-repeat;
+    background-size: cover;   
+    position: relative;
+}
+
+.photo-5 {
+    background: url('images/attire.png') top left no-repeat;
+    background-size: cover;   
+    position: relative;
+}
+
+.photo-6 {
+    background: url('images/IMG_1431.jpg') center center no-repeat;
+    background-size: cover;   
+    position: relative;
+}
+
+
+
+.relative {
+    position: relative;
+}
+
+#monogram {
+    width: 30%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    background: url('images/monogram.png') center center no-repeat;
+    background-size: 100% auto;   
+}
+
+.invite {
+    background: #fff6f9;
+    padding: 140px 0;
+    text-align: center;
+    font-size: 25px;
+    color: #83a6cf;
+    position: relative;
+    overflow: hidden;
+}
+
+.invite::before {
+    content: ' ';
+    background: url(images/flowers-left.png) no-repeat;
+    background-size: auto 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.invite::after {
+    content: ' ';
+    background: url(images/flowers-right.png) right no-repeat;
+    background-size: auto 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.divider {
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    height: 1em;
+}
+
+#address {
+    background: #5a3e44;
+    color:#fff;
+    padding: 0 2.5%;
+    width: 25% !important; 
+}
+
+#gmap {
+    position: absolute;
+    height: 100%;
+}
+
+
+
+.attire-inside {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 500px;
+    background: #fff;
+    padding: 5% 10%;
+    border: 20px solid #f3f4f7;
+      text-align: center;
+    color:#48678b;
+
+}
+
+#hashtag {
+    position: absolute;
+    width: 70%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 100px;
+    padding: 5% 0;
+      text-align: center;
+    color:#fff;
+    font-size: 7vw;
+
+}
+h2 {
+    color: #f8beb2;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 90px;
+    font-family: "freebooter_scriptregular";
+    line-height: 90px;
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.col-2 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-30 {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-70 {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+@media only screen 
+and (min-width : 641px) 
+and (max-width : 1024px) {
+    
+    .photo-5 {
+        min-height: 800px !important;
+    }
+    
+    .col-30, .col-70,  #gmap {
+        width: 50% !important;
+    }
+    
+    #address {
+        width: 45% !important;
+    }
+    
+    .attire-inside {
+            height: 75%;
+    }
+    
+}
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 640px) {
+    
+    .photo-1 {
+    background: url('images/IMG_0756-mobile.jpg') center right no-repeat !important;
+            background-size: cover;   
+    position: relative;
+}
+    
+    #monogram {
+        width: 50% !important;
+    }
+    
+    .invite::after {
+        display: none;
+    }
+    
+        .photo-5 {
+        min-height: 1200px !important;
+    }
+    
+        .attire-inside {
+            height: 60%;
+            font-size: 5vw !important;
+        line-height: 5vw !important;
+            
+    }
+    
+        .col-30, .col-70,  #gmap {
+        width: 100% !important;
+    }
+    
+    #gmap {
+        height: 400px !important;
+        clear: both !important;
+    }
+    
+    .photo-6 {
+        display: block !important;
+        margin-top: 400px;
+        clear: both !important;
+    }
+    
+    #address {
+        width: 80% !important;
+        padding: 0 10% !important;
+            font-size: 4vw !important;
+        line-height: 5vw !important;
+    }
+    
+    .invite {
+        font-size: 5vw !important;
+        line-height: 5.5vw !important;
+        padding: 140px 10%;
+    }
+    
+    .divider {
+        height: 0.5em !important;
+    }
+    
+    h3 {
+        font-size: 5vw !important;
+        line-height: 5vw !important;
+    }
+    
+    h2 {
+        font-size: 12vw !important;
+        line-height: 12vw !important;
+    }
+    
+}
+
+
+
