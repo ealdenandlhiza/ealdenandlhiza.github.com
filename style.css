@@ -280,7 +280,7 @@ ul {
 .invite::before {
     content: ' ';
     background: url(images/flowers-left.png) no-repeat;
-    background-size: auto 100%;
+    background-size: auto;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -291,12 +291,12 @@ ul {
 .invite::after {
     content: ' ';
     background: url(images/flowers-right.png) right no-repeat;
-    background-size: auto 100%;
+    background-size: auto;
     height: 100%;
     width: 100%;
     position: absolute;
     right: 0;
-    top: 0;
+    top: -20%;
 }
 
 .divider {
@@ -369,6 +369,13 @@ h3 {
     line-height: 30px;
 }
 
+h4 {
+        color: #f69a87;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+}
+
 .col-2 {
     width: 50%;
     display: inline-block;
@@ -387,6 +394,45 @@ h3 {
     vertical-align: top;
 }
 
+#entourage, #team {
+width: 60%;
+    margin: 0 auto;
+}
+
+small {
+font-size: 16px;
+}
+
+.bike {
+    background: url(images/bike.png) no-repeat center center #f1f5fa;
+    background-size: auto;
+    padding: 80px 0;
+}
+
+#our-story {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    height: 40px;
+    vertical-align: middle;
+    padding: 35px 0;
+    width: 110px;
+    border-radius: 100px;
+    background:  rgba(255,255,255,0.95) url(images/flower-ring.png) no-repeat center center;
+    background-size: 98%;
+    color: #48678b;
+    line-height: 20px;
+
+}
+
+#our-story:hover {
+   
+    color: #f8beb2;
+}
 
 @media only screen 
 and (min-width : 641px) 
@@ -406,6 +452,10 @@ and (max-width : 1024px) {
     
     .attire-inside {
             height: 75%;
+    }
+    
+    #entourage .col-2{
+        width: 100%;
     }
     
 }
@@ -479,6 +529,10 @@ and (max-width : 640px) {
     h2 {
         font-size: 12vw !important;
         line-height: 12vw !important;
+    }
+    
+    #entourage .col-2 {
+        width: 100%;
     }
     
 }
